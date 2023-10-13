@@ -1,0 +1,37 @@
+/* ========== universal ============ */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* =========== body =============== */
+/* body {
+    background-image: url(images/pexels-photo-2271100.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    z-index: 999;
+} */
+body {
+    overflow-y: hidden;
+}
+.transition-swipe {
+    position: absolute;
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height: 10%;
+}
+
+.open {
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.open button:hover {
+    background-color: grey;
+}

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maaya Bazaar</title>
+  <!-- ------------ favicon ------------------ -->
+  <link rel="icon" href="Favicon/favicon-16x16.png">
+  <!-- ----------- font awesome -------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- ------------ css files ----------------- -->
+  <link rel="stylesheet" href="home.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="shutter.js"></script>
+</head>
+
+<body style="background-color: #8c8f93;">
+
+  <!-- ------------- Navbar ------------ -->
+  <nav class="navbar navbar-expand-lg navbar-light" id="nav"
+  style="position:absolute;z-index:2;top:0;left:0;background-color:transparent;width: 100%;z-index:20;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="padding-top: 20px;"><img src="Favicon/android-chrome-192x192-removebg-preview.png" alt="icon"
+        width="55" height="55" style="background-color: transparent;">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item" style="padding-left: 20px;margin-top: -10px;">
+          <a class="nav-link active" aria-current="page" href="#"><span style="color: #fff;">Home</span></a>
+        </li>
+        <li class="nav-item" style="padding-top: 20px;">
+          <a class="nav-link" href="#fashion"><span style="color: #fff;">Fashion</span></a>
+        </li>
+        <li class="nav-item" style="padding-top: 20px;">
+          <a class="nav-link" href="#electronics"><span style="color: #fff;">Electronics</span></a>
+        </li>
+        <li class="nav-item" style="padding-top: 20px;">
+          <a class="nav-link" href="#sports"><span style="color: #fff;">Sports</span></a>
+        </li>
+        <li class="nav-item dropdown" style="padding-top: 20px;">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <span style="color: #fff;">About us</span>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="width:200px;">
+            <li><a class="dropdown-item" href="#">About my work</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#footer">Contact Us</a></li>
+          </ul>
+      </ul>
+      <li class="nav-item dropdown" style="position: absolute;right:60px;">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <span style="color: #fff;"><i class="fa-solid fa-user"></i></span>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="width:150px;overflow-x:hidden;">
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="home.html">Logout</a></li>
+        </li>
+        </ul>
+    </div>
+  </div>
+</nav>
+  <div class="container-fluid" style="width: 98vw;height: 100vh;background-color: black;">
+    <video id="bg" src="images/AirPods Pro _ Rebuilt from the sound up _ Apple.mp4" autoplay playsinline muted loop></video>
+  <!-- ------------- button ------------ -->
+  <div class="text-center">
+    <a href="#fashion" style="color:white;text-decoration: none;position: absolute;bottom:40px;">
+      <div class="btn mt-5" role="button" style="width:90px;height:40px;position: absolute;bottom:20px;right:760px;">Explore
+        <i class="fa-solid fa-angle-down"></i>
+    </a>
+  </div>
+  </div>
+</div>
+  <hr>
+  <!-- ------------- fashion ----------- -->
+  <div id="fashion">
+    <div class="container-fluid" style="background-color: #e3e3e3;">
+      <div class="fashion" style="padding-top:100px;">
+        <div data-aos="fade-right" data-aos-duration="2000">
+          <div class="img">
+            <img src="images/pexels-melvin-buezo-2529148-removebg-preview.png" alt="shoes">
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="2000">
+          <div class="desc">
+            <h1 style="font-size: 60px;padding-top: 20px;"><span style="color:#0F3F7F;">Fashion <span
+                  style="color:rgb(28, 28, 28);font-size: 50px;">Collaborated
+                  <br>with brands<span></h2>
+                  <p style="font-size: 50px;">In this fashion we have Men's shirts,<br> Women's Sarees,Necklaces and
+                      Shoes.
+                <br>
+              </p>
+            <h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- ----------------- cards --------------- -->
+    <div class="container">
+      <a href="fashion.html" style="text-decoration: none;position: absolute;right: 70px;top:1360px;color:white;">View More ></a>
+      <div class="row" style="margin-top: 60px;">
+        <div class="col-md-3">
+          <div class="card" data-aos="flip-down" data-aos-duration="2000" style="width: 18em;">
+            <img src="images/shoes10.jpg" class="card-img-top" alt="..." height="300" style="max-width: 100%;object-fit: contain;">
+            <div class="card-body">
+              <h5 class="card-title" style="padding:20px 0;">White & black shoes</h5>
+              <a href="#" class="btn btn-primary ">More Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" data-aos="flip-down" data-aos-duration="2000" style="width: 18rem;">
+            <img src="images/shoes2.jpg" class="card-img-top" alt="..." height="300" style="max-width: 100%;object-fit: contain;">
+            <div class="card-body">
+              <h5 class="card-title" style="padding:20px 0;">Brown shoes</h5>
+              <a href="#" class="btn btn-primary ">More details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" data-aos="flip-down" data-aos-duration="2000" style="width: 18rem;">
+            <img src="images/shoes4.jpg" class="card-img-top" alt="..." height="300" style="max-width: 100%;object-fit: contain;">
+            <div class="card-body">
+              <h5 class="card-title" style="padding:20px 0;">Blue shoes</h5>
+              <a href="#" class="btn btn-primary">More details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" data-aos="flip-down" data-aos-duration="2000" style="width: 18rem;">
+            <img src="images/shoes6.jpg" class="card-img-top" alt="..." height="300" style="max-width: 100%;object-fit: contain;">
+            <div class="card-body">
+              <h5 class="card-title" style="padding:20px 0;">Blue shoes</h5>
+              <a href="#" class="btn btn-primary">More details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- --------------- electronics ------------------- -->
+    <div id="electronics" style="background-color: #e3e3e3;padding:80px;">
+      <div class="container-fluid">
+        <div class="fashion">
+          <div data-aos="fade-up-right" data-aos-duration="2000">
+            <div class="img">
+              <img src="images/mobile6.jpg" alt="shoes" width="250" height="400" style="padding-top: 100px;">
+            </div>
+          </div>
+          <div data-aos="fade-down-left" data-aos-duration="2000">
+            <div class="desc">
+              <h1 style="font-size: 60px;"><span style="color:#0F3F7F;">Electronics <span
+                      style="color:rgb(28, 28, 28);font-size: 50px;"> - Collaborated
+                      <br>with brands</span></h1>
+                        <p style="font-size: 50px;">In this electronics we have Laptops,<br> Tvs,Cameras and so on.
+                          <br>
+                        </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- ----------------- cards --------------- -->
+    <div class="container">
+      <a href="electronics.html" style="text-decoration: none;position: absolute;right: 70px;top:2500px;color:white;">View More ></a>
+      <div class="row" style="margin-top: 60px;">
+        <div class="col-md-3">
+          <div class="card" data-aos="zoom-in-right" data-aos-duration="2000" style="width: 18rem;">
+            <img src="images/mobile1.jpg" class="card-img-top" alt="..." height="300" style="max-width: 100%;object-fit: contain;">
+            <div class="card-body">
+              <h5 class="card-title" style="padding:20px 0;"></h5>
+              <a href="signup.html" class="btn btn-primary ">More Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" data-aos="zoom-in-right" data-aos-duration="2000" style="width: 18rem;">
+            <img src="images/mobile2.jpg" class="card-img-top" alt="..." height="300" style="max-width: 100%;object-fit: contain;">
+            <div class="card-body">
+              <h5 class="card-title" style="padding:20px 0;"></h5>
+              <a href="signup.html" class="btn btn-primary ">More details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" data-aos="zoom-out-left" data-aos-duration="2000" style="width: 18rem;">
+            <img src="images/mobile3.jpg" class="card-img-top" alt="..." height="300" style="max-width: 100%;object-fit: contain;">
+            <div class="card-body">
+              <h5 class="card-title" style="padding:20px 0;"></h5>
+              <a href="signup.html" class="btn btn-primary ">More details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" data-aos="zoom-out-left" data-aos-duration="2000" style="width: 18rem;">
+            <img src="images/mobile4.jpg" class="card-img-top" alt="..." height="300" style="max-width: 100%;object-fit: contain;">
+            <div class="card-body">
+              <h5 class="card-title" style="padding:20px 0;"></h5>
+              <a href="signup.html" class="btn btn-primary ">More details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- --------------- Sports ------------------- -->
+        <div id="sports">
+          <div class="container-fluid" style="background-color: #e3e3e3;padding:70px;">
+            <div class="fashion" style="padding-top:70px;">
+              <div data-aos="fade-right" data-aos-duration="2000">
+                <div class="img">
+                  <img src="images/sports4.jpg" alt="football">
+                </div>
+              </div>
+              <div data-aos="fade-up" data-aos-duration="2000">
+                <div class="desc">
+                  <h2 style="font-size: 60px;"><span style="color:#0F3F7F;">Sports <span
+                        style="color:rgb(0, 0, 0);font-size: 50px;">Collaborated
+                        <br>with brands<span></h2>
+                          <p style="font-size: 50px;">In this sports we have Football,<br>Basketball,Chess, Cricket,etc.
+                            <br>
+                          </p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- ----------------- cards --------------- -->
+          <div class="container">
+            <a href="sports.html" style="text-decoration: none;position: absolute;right: 70px;top:3640px;color:white;">View More ></a>
+            <div class="row" style="margin-top: 60px;">
+              <div class="col-md-3">
+                <div class="card" data-aos="flip-left" data-aos-duration="2000" style="width: 18em;">
+                  <img src="images/sports5.jpg" class="card-img-top" alt="..." height="300" style="max-width: 100%;object-fit: contain;">
+                  <div class="card-body">
+                    <h5 class="card-title" style="padding:20px 0;">Carrom Coins</h5>
+                    <a href="#" class="btn btn-primary ">More Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" data-aos="flip-left" data-aos-duration="2000" style="width: 18rem;">
+                  <img src="images/sports6.jpg" class="card-img-top" alt="..." height="300" style="max-width: 100%;object-fit: contain;">
+                  <div class="card-body">
+                    <h5 class="card-title" style="padding:20px 0;">Golf ball</h5>
+                    <a href="#" class="btn btn-primary ">More details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" data-aos="flip-right" data-aos-duration="2000" style="width: 18rem;">
+                  <img src="images/sports7.jpg" class="card-img-top" alt="..." height="300" style="max-width: 100%;object-fit: contain;">
+                  <div class="card-body">
+                    <h5 class="card-title" style="padding:20px 0;">Chess board</h5>
+                    <a href="#" class="btn btn-primary">More details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" data-aos="flip-right" data-aos-duration="2000" style="width: 18rem;">
+                  <img src="images/sports8.jpg" class="card-img-top" alt="..." height="300" style="max-width: 100%;object-fit: contain;">
+                  <div class="card-body">
+                    <h5 class="card-title" style="padding:20px 0;">Hockey stick</h5>
+                    <a href="#" class="btn btn-primary">More details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <!-- ----------- footer -------------- -->
+          <!-- Remove the container if you want to extend the Footer to full width. -->
+
+            <footer class="text-center text-lg-start border border-white mt-xl-5 pt-4" style="background-color: #000">
+              <!-- Grid container -->
+              <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4" style="color: aqua;">OUR WORLD</h5>
+
+                    <ul class="list-unstyled mb-4">
+                      <li>
+                        <a href="#!" class="text-white" style="text-decoration: none;margin-left:-35px">About us</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white" style="text-decoration: none;margin-left:-35px">Collections</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white" style="text-decoration: none;margin-left:-35px">Environmental philosophy</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white" style="text-decoration: none;margin-left:-35px">Artist collaborations</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4" style="color: aqua;">Assistance</h5>
+
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#!" class="text-white" style="text-decoration: none;margin-left:-35px">Contact us</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white" style="text-decoration: none;margin-left:-35px">Shipping Information</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white" style="text-decoration: none;margin-left:-35px">Returns & Exchanges</a>
+                      </li>
+                      <li>
+                        <a href="payment.html" class="text-white" style="text-decoration: none;margin-left:-35px">Payment</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4" style="color: aqua;">Social Links</h5>
+
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#!" class="text-white" style="text-decoration: none;margin-left:-35px;padding-top: -5px;"><i class="fa-brands fa-instagram"></i> instagram</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white" style="text-decoration: none;margin-left:-35px;padding-top: -5px;"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white" style="text-decoration: none;margin-left:-35px;padding-top: -5px;"><i class="fa-brands fa-linkedin"></i> linkedin</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white" style="text-decoration: none;margin-left:-35px;padding-top: -5px;"><i class="fa-brands fa-github"></i> github</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4" style="color: aqua;">Sign up to our newsletter</h5>
+
+                    <div class="form-outline form-white mb-4">
+                      <input type="email" id="form5Example2" class="form-control" />
+                      <label class="form-label" for="form5Example2"v style="color:#fff;">Email address</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-outline-white btn-blockv" style="color:#fff;">Subscribe</button>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Grid container -->
+
+              <!-- Copyright -->
+              <div class="text-center p-3 border-top border-white">
+                <span style="color: aqua;">© 2023 Copyright:</span>
+                <a class="text-white" href="#1" style="text-decoration: none;">Maaya Bazaar</a>
+              </div>
+              <!-- Copyright -->
+            </footer>
+          <!-- End of .container -->
+          <script defer src="home.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
+</body>
+
+</html>

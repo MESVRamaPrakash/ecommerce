@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup</title>
+  <link rel="stylesheet" href="signup.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body style="scroll-behavior: smooth;background-image: url(images/cart.gif);background-repeat: no-repeat;background-position:top right;background-attachment: fixed;">
+
+  <nav class="navbar navbar-expand-lg navbar-light" id="nav" style="position:fixed;z-index:2;top:0;left:0;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="Favicon/android-chrome-192x192-removebg-preview.png" alt="icon"
+          width="40" height="40" style="background-color: transparent;">
+        <span>Maaya Bazaar</span></a>
+    </div>
+    </div>
+  </nav>
+  <!-- ---------- signup ------------- -->
+  <div id="signup"></div>
+  <div class="page-content page-container" id="page-content" style="margin-top: 100px;">
+    <div class="padding">
+      <div class="row container d-flex">
+        <div class="col-md-6 col-lg-4">
+          <form class="card" id="signup" style="box-shadow: 10px 10px 40px rgba(0,0,0,.65);margin-bottom: 300px;position: absolute;top:200px;left:304px;z-index:4;display:block;">
+            <h5 class="card-title fw-400" style="font-size: 70px;text-align: center;
+              background-image: linear-gradient(to right,rgb(254, 91, 91),rgb(104, 104, 241));color:white;">Sign Up
+            </h5>
+
+            <div class="card-body">
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Email">
+              </div>
+
+              <div class="form-group">
+                <input class="form-control" type="password" placeholder="Password">
+              </div>
+
+              <div class="form-group">
+                <input class="form-control" type="password" placeholder="Confirm Password">
+              </div>
+              <button class="btn btn-block btn-bold btn-primary" style="width:100%;text-align:center;border:none;
+                background-image: linear-gradient(to right,rgb(254, 91, 91),rgb(104, 104, 241));color:white;"> <a
+                  href="account.html" style="text-decoration: none;color:#fff">Sign Up</a></button>
+              <hr>
+              <p>If you already have an account then <a href="#login" style="text-decoration: none;">Log in</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------- login ------------- -->
+  <div class="page-content page-container" id="page-content" style="margin-top: 100px;">
+    <div class="padding">
+      <div class="row container d-flex justify-content-center">
+        <div class="col-md-6 col-lg-4">
+          <form class="card" style="box-shadow: 10px 10px 40px rgba(0,0,0,.65);position: absolute;top:1000px;left:300px;z-index:4;display:block;">
+            <h5 class="card-title fw-400" style="font-size: 70px;text-align: center;
+                        background-image: linear-gradient(to right,rgb(254, 91, 91),rgb(104, 104, 241));color:white;">
+              Log in</h5>
+
+            <div class="card-body">
+              <div class="form-group">
+                <input class="form-control" type="text" placeholder="Email">
+              </div>
+
+              <div class="form-group">
+                <input class="form-control" type="password" placeholder="Password">
+              </div>
+              <p>If you forget your password <a href="#" style="text-decoration: none;">forget password</a></p>
+              <button class="btn btn-block btn-bold btn-primary"
+                style="width:100%;text-align:center;border:none;
+                          background-image: linear-gradient(to right,rgb(254, 91, 91),rgb(104, 104, 241));color:white;"><a href="account.html"
+                  style="text-decoration: none;color:#fff">Log in</a></button>
+              <hr>
+              <p>If you don't have an account then <a href="#signup" style="text-decoration: none;">Sign up</a></p>
+            </div>
+            <div id="login" style="margin-top: 50px;"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
